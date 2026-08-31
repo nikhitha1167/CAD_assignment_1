@@ -13,7 +13,9 @@ fulladder.v
 input_vectors.txt
 
 The file logic_simulator.py contains the Python logic simulator.
+
 The file fulladder.v contains the structural Verilog description of the full adder.
+
 The file input_vectors.txt contains the input combinations to be simulated.
 
 Open the terminal in the folder containing the files.
