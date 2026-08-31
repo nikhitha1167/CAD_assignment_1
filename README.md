@@ -22,7 +22,17 @@ How to Run the Program
     python logic_simulator.py fulladder.v input_vectors.txt output_results.txt
    
  7. The program displays the primary inputs, primary outputs, number of gates, gate information and gate levelization.
- 
+    
  8. It then simulates all vectors in input_vectors.txt
  
  9. The final results are saved in output_results.txt
+
+
+ Single-Vector Mode
+ 
+   A single input vector can also be tested without an input file:
+   
+   python logic_simulator.py fulladder.v 101
+
+ 
+ 
