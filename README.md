@@ -7,7 +7,9 @@ Create the Required Files
 First, create the following files in the same folder:
 
 logic_simulator.py
+
 fulladder.v
+
 input_vectors.txt
 
 The file logic_simulator.py contains the Python logic simulator.
