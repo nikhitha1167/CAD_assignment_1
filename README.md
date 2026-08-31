@@ -3,29 +3,32 @@ Design of a logic simulator which can simulate a digital circuit which can take 
 
 IMPLEMENTATION STEPS
 
-Create the Required Files
-First, create the following files in the same folder:
-
-1. logic_simulator.py
-
-2. fulladder.v
-
-3. input_vectors.txt
-
 The file logic_simulator.py contains the Python logic simulator.
 
 The file fulladder.v contains the structural Verilog description of the full adder.
 
 The file input_vectors.txt contains the input combinations to be simulated.
 
-Open the terminal in the folder containing the files.
+How to Run the Program
 
-Run the following command:
+ 1. Keep these files in the same folder: logic_simulator.py, fulladder.v, input_vectors.txt and output_results.txt (the output file may be created automatically).
+   
+   The file logic_simulator.py contains the Python logic simulator.
 
-python logic_simulator.py fulladder.v input_vectors.txt output_results.txt
+   The file fulladder.v contains the structural Verilog description of the full adder.
 
-After simulation, the calculated results are written into:
+    The file input_vectors.txt contains the input combinations to be simulated.
 
-output_results.txt
-
-This file contains the simulation results corresponding to the input vector
+ 2. Open Command Prompt or PowerShell in that folder.
+   
+ 3. Check Python installation using:
+    python --version
+   
+ 4. Run the complete batch simulation using:
+    python logic_simulator.py fulladder.v input_vectors.txt output_results.txt
+   
+ 5. The program displays the primary inputs, primary outputs, number of gates, gate information and gate levelization.
+ 
+ 6. It then simulates all vectors in input_vectors.txt
+ 
+ 7. The final results are saved in output_results.txt
